@@ -1,3 +1,4 @@
+import os
 import matplotlib.pyplot as plt
 
 # 한글 폰트 설정 (추가됨)
@@ -105,7 +106,9 @@ def plot_factor_tree(number):
     ax.axis('off')
     plt.tight_layout()
     
-    output_path = f"01_prime_factorization/factor_tree_{number}.png"
+    # 스크립트 파일이 위치한 디렉토리 기준 절대 경로 생성
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(current_dir, f"factor_tree_{number}.png")
     plt.savefig(output_path, dpi=300, facecolor='#0D1117')
     print(f"소인수분해 트리 시각화가 저장되었습니다: {output_path}")
     plt.show()
