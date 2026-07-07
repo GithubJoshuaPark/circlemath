@@ -163,8 +163,8 @@ circlemath/
 │   │
 │   ├── 01_middle_1/                        # 🟢 1단계: 중학교 1학년 과정
 │   │   ├── 01_prime_factorization/         #   - 소인수분해 (01_prime_factorization.ipynb 통합 노트북, 소수 나선, 팩터 트리 완료)
-│   │   ├── 02_integers_rational_numbers/   #   - 정수와 유리수
-│   │   ├── 03_algebraic_expressions/       #   - 문자와 식
+│   │   ├── 02_integers_rational_numbers/   #   - 정수와 유리수 (01_02_integers_rational_numbers.ipynb 통합 노트북 완료)
+│   │   ├── 03_algebraic_expressions/       #   - 문자와 식 (03_algebraic_expressions.ipynb 통합 노트북, 일차식 슬라이더, 변수 메모리 시뮬레이션 완료)
 │   │   ├── 04_coordinate_plane_graphs/     #   - 좌표평면과 그래프
 │   │   ├── 05_basic_geometry/              #   - 기본 및 평면도형
 │   │   ├── 06_solid_geometry/              #   - 입체도형의 성질
@@ -198,10 +198,24 @@ circlemath/
 │   │   ├── 06_sets_propositions/           #   - 집합과 명제
 │   │   └── 07_functions_graphs/            #   - 함수와 그래프
 │   │
-│   └── 05_high_algebra/                    # 🟣 5단계: 고등학교 대수
-│       ├── 01_exponential_logarithmic/     #   - 지수함수와 로그함수
-│       ├── 02_trigonometric_functions/     #   - 삼각함수
-│       └── 03_sequences/                   #   - 수열
+│   ├── 05_high_algebra/                    # 🟣 5단계: 고등학교 대수
+│   │   ├── 01_exponential_logarithmic/     #   - 지수함수와 로그함수
+│   │   ├── 02_trigonometric_functions/     #   - 삼각함수
+│   │   └── 03_sequences/                   #   - 수열
+│   │
+│   ├── 06_high_calculus/                   # 🟤 6단계: 고등학교 미적분 / 수학Ⅱ
+│   │   ├── 01_limits_continuity/           #   - 함수의 극한과 연속
+│   │   ├── 02_differentiation/             #   - 다항함수의 미분법
+│   │   ├── 03_exponential_differentiation/ #   - 지수함수의 미분법
+│   │   ├── 04_logarithmic_differentiation/ #   - 로그함수의 미분법
+│   │   ├── 05_trigonometric_differentiation/ #   - 삼각함수의 미분법
+│   │   ├── 06_integration/                 #   - 다항함수의 적분법
+│   │   └── 07_advanced_calculus/           #   - (선택) 미적분
+│   │
+│   └── 07_high_statistics/                 # ⚫ 7단계: 고등학교 확률과 통계
+│       ├── 01_combinatorics/               #   - 순열과 조합 (심화)
+│       ├── 02_probability/                 #   - 확률의 뜻과 성질
+│       └── 03_statistics/                  #   - 통계 (확률분포 및 추정)
 ```
 
 ---
