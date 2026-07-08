@@ -28,6 +28,12 @@ dev-dist
 *.sln
 *.sw?
 
+# firebase
+.firebaserc
+.firebaseignore
+
+make_pdf_with_file.py
+
 # Environment variables
 .env
 functions/.env
