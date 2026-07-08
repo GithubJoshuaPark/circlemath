@@ -53,3 +53,6 @@ graphify-out/cache/
 
 # Git agent setting
 GEMINI.md
+
+# Shell script
+deploy_to_circlemath.sh
