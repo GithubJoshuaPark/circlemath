@@ -41,6 +41,7 @@ functions/lib/
 
 # Firebase cache
 .firebase/
+firebase.json
 
 # docs
 .gemini/
