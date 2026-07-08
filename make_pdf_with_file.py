@@ -83,4 +83,5 @@ if __name__ == "__main__":
     try:
         make_pdf(args.input, args.output)
     except Exception as e:
+        print(f"[오류] 변환에 실패했습니다: {str(e)}", file=sys.stderr)
         sys.exit(1)
