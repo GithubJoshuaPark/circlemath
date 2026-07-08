@@ -159,7 +159,7 @@ circlemath/
 ├── requirements.txt                    # 파이썬 의존성 패키지 목록
 ├── doc_fr_llm/                         # LLM 답변 및 기획 논의 아카이브
 │
-├── middle_high_school_math
+├── math
 │   │
 │   ├── 01_middle_1/                        # 🟢 1단계: 중학교 1학년 과정
 │   │   ├── 01_prime_factorization/         #   - 소인수분해 (01_prime_factorization.ipynb 통합 노트북, 소수 나선, 팩터 트리 완료)
