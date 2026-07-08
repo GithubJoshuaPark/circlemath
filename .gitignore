@@ -36,9 +36,11 @@ functions/lib/
 # Firebase cache
 .firebase/
 
-# documents
 # docs
-# doc_fr_llm
+.gemini/*
+documents/*
+docs/*
+doc_fr_llm/*
 
 # Graphify cache
 graphify-out/cache/
