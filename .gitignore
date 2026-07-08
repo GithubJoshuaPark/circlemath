@@ -37,13 +37,10 @@ functions/lib/
 .firebase/
 
 # docs
-.gemini/*
-documents/*
-docs/*
-doc_fr_llm/*
-
-# Graphify cache
-graphify-out/cache/
+.gemini/
+documents/
+docs/
+doc_fr_llm/
 
 # Graphify cache
 graphify-out/cache/
