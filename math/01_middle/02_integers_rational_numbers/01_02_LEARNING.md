@@ -49,4 +49,6 @@
 우리는 두 번째 수학 Retreat 실습으로 다음 코드를 작성하여 유리수의 구조적 아름다움을 감상할 것입니다.
 
 - **`rational_density.py`**: 수직선 위에 분모가 커짐에 따라 유리수들이 얼마나 조밀(Dense)하게 채워지는지 시각화하고, 그 사이사이에 숨은 무리수들의 빈틈을 직관적으로 탐색해보는 그래픽 도구.
+![rational_density.png](rational_density.png)
 - **`pythagorean_harmonics.py`**: 현의 길이와 주파수를 유리수 비율로 조정하며, 실제로 아름다운 화음의 파형(Waveform)이 어떻게 물리적으로 중첩되고 조화를 이루는지 듣고 눈으로 관찰하는 대화형 사운드 시각화 스크립트.
+![pythagorean_harmonics.png](pythagorean_harmonics.png)
