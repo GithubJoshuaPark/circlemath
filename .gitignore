@@ -50,3 +50,6 @@ doc_fr_llm/
 
 # Graphify cache
 graphify-out/cache/
+
+# Git agent setting
+GEMINI.md
