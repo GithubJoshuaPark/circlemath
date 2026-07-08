@@ -161,7 +161,7 @@ circlemath/
 │
 ├── math
 │   │
-│   ├── 01_middle_1/                        # 🟢 1단계: 중학교 1학년 과정
+│   ├── 01_middle/                        # 🟢 1단계: 중학교 1학년 과정
 │   │   ├── 01_prime_factorization/         #   - 소인수분해 (01_prime_factorization.ipynb 통합 노트북, 소수 나선, 팩터 트리 완료)
 │   │   ├── 02_integers_rational_numbers/   #   - 정수와 유리수 (01_02_integers_rational_numbers.ipynb 통합 노트북 완료)
 │   │   ├── 03_algebraic_expressions/       #   - 문자와 식 (03_algebraic_expressions.ipynb 통합 노트북, 일차식 슬라이더, 변수 메모리 시뮬레이션 완료)
@@ -170,7 +170,7 @@ circlemath/
 │   │   ├── 06_solid_geometry/              #   - 입체도형의 성질
 │   │   └── 07_data_analysis/               #   - 자료의 정리
 │   │
-│   ├── 02_middle_2/                        # 🟡 2단계: 중학교 2학년 과정
+│   ├── 02_middle/                        # 🟡 2단계: 중학교 2학년 과정
 │   │   ├── 01_numbers_expressions/         #   - 수와 식의 계산
 │   │   ├── 02_linear_inequalities/         #   - 일차부등식
 │   │   ├── 03_system_linear_equations/     #   - 연립일차방정식
@@ -180,7 +180,7 @@ circlemath/
 │   │   ├── 07_pythagorean_theorem/         #   - 피타고라스 정리
 │   │   └── 08_probability/                 #   - 확률
 │   │
-│   ├── 03_middle_3/                        # 🟠 3단계: 중학교 3학년 과정
+│   ├── 03_middle/                        # 🟠 3단계: 중학교 3학년 과정
 │   │   ├── 01_real_numbers/                #   - 실수와 그 계산
 │   │   ├── 02_polynomials_factoring/       #   - 곱셈공식과 인수분해
 │   │   ├── 03_quadratic_equations/         #   - 이차방정식
