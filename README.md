@@ -163,6 +163,7 @@ circlemath/
 │   │
 │   ├── 01_middle/                        # 🟢 1단계: 중학교 1학년 과정
 │   │   ├── 01_prime_factorization/         #   - 소인수분해 (01_prime_factorization.ipynb 통합 노트북, 소수 나선, 팩터 트리 완료)
+            ![](01_prime_factorization.png)
 │   │   ├── 02_integers_rational_numbers/   #   - 정수와 유리수 (01_02_integers_rational_numbers.ipynb 통합 노트북 완료)
 │   │   ├── 03_algebraic_expressions/       #   - 문자와 식 (03_algebraic_expressions.ipynb 통합 노트북, 일차식 슬라이더, 변수 메모리 시뮬레이션 완료)
 │   │   ├── 04_coordinate_plane_graphs/     #   - 좌표평면과 그래프

@@ -47,6 +47,6 @@
 우리는 첫 번째 실습으로 다음 코드를 작성하고 실행할 것입니다.
 
 - **`ulam_spiral.py`**: 소수들을 나선형 격자에 점으로 찍어 소수의 패턴을 시각화하는 울람의 나선(Ulam Spiral) 그리기.
-  ![울람의 나선(Ulam Spiral)](./ulam_spiral.png)
+  ![울람의 나선(Ulam Spiral)](./01_01_ulam_spiral.png)
 - **`factor_tree.py`**: 특정 합성수를 입력하면 소인수의 결합 트리를 시각화해주는 스크립트.
-  ![소인수분해 나무(Factor Tree)](./factor_tree_120.png)
+  ![소인수분해 나무(Factor Tree)](./01_01_factor_tree.png)
