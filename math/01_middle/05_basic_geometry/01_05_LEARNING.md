@@ -48,4 +48,6 @@
 
 우리는 다섯 번째 수학 Retreat 실습으로 기하학의 상호작용을 경험해 볼 것입니다.
 - **`geometry_sandbox.py`**: 좌표평면 위에 마우스로 점을 찍고 선을 그으며, 평행선과 수직선을 마우스 클릭만으로 정밀하게 작도하고 사이 각도를 실시간 측정해 보는 인터랙티브 기하 샌드박스.
+![geometry_sandbox](01_05_geometry_sandbox.png)
 - **`perspective_projection.py`**: 3차원 공간에 존재하는 입체 도형(예: 정사면체나 정육면체)이 카메라 관점(각도)의 변화에 따라 2차원 화면(면)에 어떻게 그림자처럼 투영(Projection)되어 맺히는지 보여주는 차원 투영 시뮬레이터.
+![perspective_projection](01_05_perspective_projection.png)
