@@ -45,4 +45,6 @@
 
 우리는 중등 2학년의 두 번째 수학 Retreat에서 부등식의 역동적인 경계를 시각화할 것입니다.
 - **`inequality_boundary.py`**: 수직선 위에 일차부등식 $ax + b > c$의 해를 실시간 파란색 영역(Shaded Region)으로 표현하고, 계수 $a$의 슬라이더를 잡고 음수 영역으로 내릴 때, 영역이 어떻게 순식간에 반대 방향으로 반전(Flip)하는지 눈으로 체험하는 대화형 수직선 기하 툴.
+![02_02_inequality_boundary](02_02_inequality_boundary.png)
 - **`break_even_optimizer.py`**: 가상의 서비스 매출과 고정비/변동비 데이터를 수치화하여, 손익분기점을 초과해 이익 영역($\text{Profit} > 0$)에 도달하기 위한 최소 판매량 임계값을 실시간 추세선 그래프와 동적 빗금치기로 표현해 주는 의사결정 대시보드 스크립트.
+![02_02_break_even_optimizer](02_02_break_even_optimizer.png)
