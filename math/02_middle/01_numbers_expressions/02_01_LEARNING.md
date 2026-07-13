@@ -46,4 +46,6 @@
 
 우리는 중등 2학년의 첫 번째 실습으로 수와 식의 심오한 패턴을 탐험할 것입니다.
 - **`recurring_decimal_fractal.py`**: 분수 $\frac{p}{q}$를 입력하면 소수로 나누어 떨어지는 나눗셈의 잔여값(Remainder)들이 어떻게 고유한 순환 루프(Cycle)를 그리며 기하학적인 기하 곡선(나선형 스펙트럼)을 그리는지 시각적으로 추적하고, 순환마디의 길이를 계산하는 분석 도구.
+![recurring_decimal_fractal.png](02_01_recurring_decimal_fractal.png)
 - **`exponential_growth_sandbox.py`**: 지수의 폭발력을 직관적으로 파악하기 위해 세포의 자가 분열, 금융의 복리 자산 증가율 등을 슬라이더로 동적 시뮬레이션하며, 일차 함수적(Linear) 성장 곡선과 거듭제곱(Exponential) 성장 곡선의 어마어마한 시각적 격차를 비교해 보는 인터랙티브 대시보드.
+![exponential_growth_sandbox.png](02_01_exponential_growth_sandbox.png)
