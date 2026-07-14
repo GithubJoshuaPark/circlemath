@@ -46,4 +46,6 @@
 
 우리는 중등 2학년의 세 번째 수학 Retreat에서 두 직선의 아름다운 만남을 시각화할 것입니다.
 - **`system_equation_intersection.py`**: 좌표평면 위에 두 일차방정식 $ax + by = c$와 $dx + ey = f$가 그리는 직선들을 그리고, 사용자가 슬라이더로 계수를 조정함에 따라 교점(해)의 위치가 실시간으로 부드럽게 이동하는 인터랙티브 그래프 대시보드. 두 직선이 평행하여 해가 없는 상태와 포개어져 해가 무한한 상태의 기하학적 순간을 직관적으로 보여줍니다.
+![system_equation_intersection](02_03_system_equation_intersection.png)
 - **`gps_trilateration.py`**: 2D 화면 위에 3개의 위성 기지국(원들의 중심)을 배치하고, 가상의 단말기로부터 거리 방정식을 연립하여 단말기의 위치를 삼각측량으로 핀포인트 계산해내는 GPS 수신기 시뮬레이터 스크립트.
+![gps_trilateration](02_03_gps_trilateration.png)
