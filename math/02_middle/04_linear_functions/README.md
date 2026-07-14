@@ -42,10 +42,18 @@
 
 ---
 
-## 4. 파이썬 시각화 예고
+## 4. 파이썬 시각화 실습
 
-우리는 중등 2학년의 네 번째 수학 Retreat에서 함수와 그래프의 아름다운 대응을 구현할 것입니다.
-- **`linear_regression_helper.py`**: 좌표평면 위에 마우스 클릭으로 가상의 매출이나 고객 행동 데이터 점들을 흩뿌리면, 점들의 트렌드를 가장 완벽하게 관통하는 일차함수 추세선(Linear Regression Line)을 실시간으로 추적하여 그려주고 최적의 기울기와 y절편을 수치로 출력해 주는 선형 회귀 분석기 시각화 툴.
+우리는 일차함수의 실생활 활용인 선형 회귀 분석과 센서 보정 튜닝 과정을 대화형으로 학습할 수 있는 인터랙티브 주피터 노트북을 제공합니다.
+노트북 파일: [02_04_linear_regression_calibration_simulator.ipynb](02_04_linear_regression_calibration_simulator.ipynb)
+
+### 1) 선형 회귀 추세선 도우미 (`linear_regression_helper`)
+- 화면 상에 마우스 클릭으로 데이터 포인트들을 흩뿌리거나(대화형 캔버스 모드), 슬라이더로 참 기울기/절편 및 오차 범위(Noise)를 조작하여 OLS(최소제곱법)로 계산된 일차함수 추세선이 수렴해 나가는 모습을 실시간으로 관찰할 수 있습니다.
+
 ![linear_regression_helper](02_04_linear_regression_helper.png)
-- **`calibration_simulator.py`**: 아날로그 센서 신호(전압)를 감지하여 온도 기기에 맞추어 보정하는 일차함수 $y = ax + b$의 기울기(센서 민감도)와 y절편(영점 조정)을 대화형 슬라이더로 조절하며 계측기가 정밀하게 영점을 맞춰가는 과정을 실시간 눈금 그래프로 보여주는 제어 튜닝 시뮬레이터.
+
+### 2) 아날로그 센서 보정 시뮬레이터 (`calibration_simulator`)
+- 아날로그 원시 전압 신호($V$)를 실제 측정 온도($C$)로 교정해 주기 위해 일차함수 $y = ax + b$ 의 변환식을 튜닝합니다.
+- 대화형 슬라이더로 Gain($a$)과 Offset($b$)을 조절하여 오차가 발생한 센서 출력 곡선을 기준 가이드라인과 정밀하게 영점 정렬하는 공학적 프로세스를 체험합니다.
+
 ![calibration_simulator](02_04_calibration_simulator.png)
