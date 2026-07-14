@@ -46,4 +46,6 @@
 
 우리는 중등 2학년의 네 번째 수학 Retreat에서 함수와 그래프의 아름다운 대응을 구현할 것입니다.
 - **`linear_regression_helper.py`**: 좌표평면 위에 마우스 클릭으로 가상의 매출이나 고객 행동 데이터 점들을 흩뿌리면, 점들의 트렌드를 가장 완벽하게 관통하는 일차함수 추세선(Linear Regression Line)을 실시간으로 추적하여 그려주고 최적의 기울기와 y절편을 수치로 출력해 주는 선형 회귀 분석기 시각화 툴.
+![linear_regression_helper](02_04_linear_regression_helper.png)
 - **`calibration_simulator.py`**: 아날로그 센서 신호(전압)를 감지하여 온도 기기에 맞추어 보정하는 일차함수 $y = ax + b$의 기울기(센서 민감도)와 y절편(영점 조정)을 대화형 슬라이더로 조절하며 계측기가 정밀하게 영점을 맞춰가는 과정을 실시간 눈금 그래프로 보여주는 제어 튜닝 시뮬레이터.
+![calibration_simulator](02_04_calibration_simulator.png)
