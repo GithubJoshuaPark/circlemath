@@ -46,4 +46,6 @@
 
 우리는 중등 3학년의 첫 번째 수학 Retreat에서 보이지 않는 실수의 연속성을 코딩할 것입니다.
 - **`real_number_line_gap.py`**: 수직선 위에 유리수 점들을 아무리 촘촘하게 찍어도 미시적으로는 여전히 무수히 많은 틈(구멍)이 뚫려 있음을 보여준 후, 직각삼각형의 대각선 빗변을 컴퍼스로 돌려 수직선 위에 떨어뜨리는 기하학적 궤적 연산을 통해 무리수 좌표($\sqrt{2}, \sqrt{3}$ 등)를 찍어 수직선 전체가 빈틈없이 연속적으로 완전히 채워지는 실수의 완비성(Completeness) 시각화 작도 툴.
+![real_number_line_gap](03_01_real_number_line_gap.png)
 - **`sqrt_continued_fraction.py`**: 끝없이 이어지는 무한소수인 무리수 $\sqrt{2}$의 참값을 구하기 위해, 분수의 분수가 꼬리를 물고 무한히 깊어지는 연분수(Continued Fraction) 공식을 사용해 분수 단계가 아래로 내려갈수록 소수점 아래 수치가 어떻게 참값으로 자석처럼 수렴(Convergence)해 들어가는지 시각화하는 인터랙티브 대수 시뮬레이터.
+![sqrt_continued_fraction](03_01_sqrt_continued_fraction.png)
