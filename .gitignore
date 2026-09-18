@@ -57,3 +57,6 @@ GEMINI.md
 
 # Shell script
 deploy_to_circlemath.sh
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
